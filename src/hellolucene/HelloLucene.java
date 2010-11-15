@@ -19,7 +19,7 @@ public class HelloLucene {
     //    The same analyzer should be used for indexing and searching
     StandardAnalyzer analyzer = new StandardAnalyzer(Version.LUCENE_CURRENT);
 
-    // 1. create the index
+    // 1. create the index section
     Directory index = new RAMDirectory();
 
     // the boolean arg in the IndexWriter ctor means to
